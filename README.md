@@ -8,7 +8,7 @@ Markov chain Monte Carlo methods (Metropolis-Hastings)
 
 #### これは何？
 
-MCMCのMetropolis-Hastings法のC++によるフルスクラッチです。
+MCMCのMetropolis-Hastings法のC++によるフルスクラッチです。  
 乱数の発生は困難だが値の評価は容易な事後分布のカーネルと、乱数発生が容易な提案分布とを利用して、事後分布から母数の実現値の擬似乱数列を発生させる手法です。
 
 
