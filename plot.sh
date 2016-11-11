@@ -44,7 +44,8 @@ set offsets 0.1, 0.1, 0.1, 0.1
 
 # plot "output"                       using 1:2 w p ls 10 pt 1 ps 0.5 lw 1 t '', \
 
-plot (x ** 10) * (13 ** 11) / exp(x * 13) / gamma(11) ls 10 t '', \
+plot (x ** 10) * (13 ** 11) / exp(x * 13) / gamma(11) ls 10 t 'gamma', \
+     exp(- (x - 1.0) * (x - 1.0) / (2 * 0.5 * 0.5)) / sqrt(2.0 * pi * 0.5 * 0.5) ls 12 t 'gauss', \
      "output" using 1:2 w p ls 11 pt 6 ps 1.0 lw 1 t ''
 
 EOF
