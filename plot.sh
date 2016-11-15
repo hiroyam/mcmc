@@ -48,4 +48,11 @@ plot (x ** 10) * (13 ** 11) / exp(x * 13) / gamma(11) ls 10 t 'gamma', \
      exp(- (x - 1.0) * (x - 1.0) / (2 * 0.5 * 0.5)) / sqrt(2.0 * pi * 0.5 * 0.5) ls 12 t 'gauss', \
      "output" using 1:2 w p ls 11 pt 6 ps 1.0 lw 1 t ''
 
+# binv(p,q)=exp(lgamma(p+q)-lgamma(p)-lgamma(q))
+# beta(x,p,q)=p<=0||q<=0?1/0:x<0||x>1?0.0:binv(p,q)*x**(p-1.0)*(1.0-x)**(q-1.0)
+# set xrange [0:1]
+# plot beta(x, 10.2, 5.8) ls 10 t 'beta', \
+#      1 ls 12 t 'uniform', \
+#      "output" using 1:2 w p ls 11 pt 6 ps 1.0 lw 1 t ''
+
 EOF
