@@ -1,4 +1,4 @@
-# metropolis-hastings
+# mcmc
 
 Markov chain Monte Carlo methods (Metropolis-Hastings)
 
