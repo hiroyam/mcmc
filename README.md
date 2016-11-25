@@ -1,8 +1,8 @@
-# mcmc
+# mcmc-mh
 
-Markov Chain Monte Carlo methods (Metropolis-Hastings)
+Markov Chain Monte Carlo (Metropolis-Hastings)
 
-[![Build Status](https://travis-ci.org/hiroyam/metropolis-hastings.svg?branch=master)](https://travis-ci.org/hiroyam/metropolis-hastings)
+[![Build Status](https://travis-ci.org/hiroyam/mcmc-mh.svg?branch=master)](https://travis-ci.org/hiroyam/mcmc-mh)
 
 ---
 
